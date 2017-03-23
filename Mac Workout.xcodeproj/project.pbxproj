@@ -12,6 +12,7 @@
 		BDB377921E834FEB0043B413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB377901E834FEB0043B413 /* Main.storyboard */; };
 		BDB377941E834FEB0043B413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB377931E834FEB0043B413 /* Assets.xcassets */; };
 		BDB377971E834FEB0043B413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB377951E834FEB0043B413 /* LaunchScreen.storyboard */; };
+		BDB3779F1E836F920043B413 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB3779E1E836F920043B413 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BDB377931E834FEB0043B413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB377961E834FEB0043B413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDB377981E834FEB0043B413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB3779E1E836F920043B413 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BDB3778C1E834FEB0043B413 /* AppDelegate.swift */,
 				BDB3778E1E834FEB0043B413 /* ViewController.swift */,
+				BDB3779E1E836F920043B413 /* EntryViewController.swift */,
 				BDB377901E834FEB0043B413 /* Main.storyboard */,
 				BDB377931E834FEB0043B413 /* Assets.xcassets */,
 				BDB377951E834FEB0043B413 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				BDB3778F1E834FEB0043B413 /* ViewController.swift in Sources */,
 				BDB3778D1E834FEB0043B413 /* AppDelegate.swift in Sources */,
+				BDB3779F1E836F920043B413 /* EntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
